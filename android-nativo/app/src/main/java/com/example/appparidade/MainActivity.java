@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         Switch TemaSwitch = findViewById(R.id.switch_tema);
         Button RequisicaoButton = findViewById(R.id.button_requisicao);
+        Button ListaPaisButton = findViewById(R.id.button_lista_pais);
+        Button RecursoNativoButton = findViewById(R.id.button_nativo);
 
         TemaSwitch.setChecked(modoNoturnoAtivo());
 
@@ -41,6 +43,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,RequisicaoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ListaPaisButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ListaPaisActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        RecursoNativoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,NativoActivity.class);
                 startActivity(intent);
             }
         });
