@@ -15,18 +15,18 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="22dp"
         android:text="Página Lista"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button_requisicao"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_requisicao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="58dp"
-        android:text="Página API"
+        android:text="Página Requisição"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

@@ -1,8 +1,11 @@
 package com.example.appparidade;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Switch;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Switch TemaSwitch = findViewById(R.id.switch_tema);
+        Button RequisicaoButton = findViewById(R.id.button_requisicao);
 
         TemaSwitch.setChecked(modoNoturnoAtivo());
 
@@ -30,8 +34,15 @@ public class MainActivity extends AppCompatActivity {
             }else{
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
             }
-
             recreate();
+        });
+
+        RequisicaoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,RequisicaoActivity.class);
+                startActivity(intent);
+            }
         });
     }
 
