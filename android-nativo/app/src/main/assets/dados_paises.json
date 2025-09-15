@@ -16,7 +16,6 @@
     "descricao": "O Peru guarda heranças históricas únicas, como Machu Picchu, símbolo da civilização inca. Além da relevância cultural, tem crescimento no turismo e na exploração de recursos minerais."
   },
   {
-    "id": 5,
     "nome": "México",
     "descricao": "Com rica herança indígena e colonial, o México é potência cultural e econômica. Destaca-se na culinária reconhecida pela UNESCO e na indústria automobilística, com projeção global."
   },
@@ -26,7 +25,7 @@
   },
   {
     "nome": "França",
-    "descricao": "Símbolo global de moda, gastronomia e patrimônio cultural, a França também se consolida como potência econômica e política na União Europeia, com Paris como epicentro de sua projeção mundial.",
+    "descricao": "Símbolo global de moda, gastronomia e patrimônio cultural, a França também se consolida como potência econômica e política na União Europeia, com Paris como epicentro de sua projeção mundial."
   },
   {
     "nome": "Itália",
