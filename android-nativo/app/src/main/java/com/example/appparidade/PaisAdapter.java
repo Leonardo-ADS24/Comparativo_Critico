@@ -21,6 +21,10 @@ public class PaisAdapter extends RecyclerView.Adapter<PaisAdapter.ViewHolder> {
         this.listaOriginal = new ArrayList<>(lista);
     }
 
+    public List<PaisLista> getLista() {
+        return lista;
+    }
+
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_lista, parent, false);
@@ -54,7 +58,6 @@ public class PaisAdapter extends RecyclerView.Adapter<PaisAdapter.ViewHolder> {
         }
     }
 
-    // Método de filtro
     public void filtrar(String texto) {
         lista.clear();
         if (texto.isEmpty()) {
