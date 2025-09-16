@@ -14,8 +14,11 @@
         android:layout_marginStart="199dp"
         android:layout_marginTop="172dp"
         android:layout_marginEnd="142dp"
-        android:text="Tela Nativo"
+        android:text="Página Detalhe - Localização"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,6 +30,8 @@
         android:layout_marginTop="92dp"
         android:layout_marginEnd="144dp"
         android:text="Localizaçao:"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
