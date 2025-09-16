@@ -21,6 +21,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import android.os.Handler;
+import android.util.Log;
+import java.lang.Runtime;
+
 public class ListaPaisActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
@@ -55,7 +59,14 @@ public class ListaPaisActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+        new Handler().postDelayed(() -> {
+            Runtime runtime = Runtime.getRuntime();
+            long usedMemory = (runtime.totalMemory() - runtime.freeMemory()) / (1024 * 1024);  // Converte para MB
+            Log.d("MemoryUsage", "Memória em repouso após 30s: " + usedMemory + " MB");
+        }, 30000);
     }
+
 
 
     private void carregarDadosJSON() {

@@ -3,6 +3,7 @@ package com.example.appparidade;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Switch;
 import android.widget.Button;
@@ -16,8 +17,12 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    private long tempoInicial;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        tempoInicial = System.currentTimeMillis();
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -29,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         TemaSwitch.setChecked(modoNoturnoAtivo());
 
-        //
+
         TemaSwitch.setOnCheckedChangeListener((buttonView, isChecked) ->{
             if(isChecked){
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
@@ -62,9 +67,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Log.d("Tempo","Oncreate Iniciado");
     }
 
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus){
+            long tempoFinal = System.currentTimeMillis();
+            long coldStart = tempoFinal - tempoInicial;
+            Log.d("Tempo","Cold Start: "+ coldStart +" ms");
+        }
 
+    }
     //A função modoNoturnoAtivo verifica o tema do celular
     private boolean modoNoturnoAtivo(){
         int valorNoturno = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
