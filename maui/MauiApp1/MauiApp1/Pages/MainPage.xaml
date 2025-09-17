@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <!--Titulo app-->
+            <Label Text="App Paridade"
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <Grid ColumnDefinitions="*, *"
+              RowDefinitions="Auto, Auto"
+              ColumnSpacing="15"
+              RowSpacing="15"
+              HorizontalOptions="Center">
+                <!--botões para as outras paginas-->
+                <Button Text="Página Lista"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Clicked="OnPaginaListaClicked" />
+
+                <Button Text="Página Requisição"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Clicked="OnPaginaRequisicaoClicked" />
+
+                <Button Text="Recurso Nativo"
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    WidthRequest="315"
+                    Clicked="OnRecursoNativoClicked" />
+                
+                
+            </Grid> <!--Selecionar Tema-->
+            <HorizontalStackLayout Spacing="10"
+                               HorizontalOptions="Center"
+                               Margin="0, 20, 0, 0">
+                <Label Text="Tema"
+                   VerticalOptions="Center" />
+                <Switch Toggled="OnThemeToggled" />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
