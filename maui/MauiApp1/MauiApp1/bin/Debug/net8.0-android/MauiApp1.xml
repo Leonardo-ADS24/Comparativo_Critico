@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiApp1</name>
+    </assembly>
+    <members>
+        <member name="M:MauiApp1.Pages.RequisicaoPage.CarregarPaises">
+            <summary>
+            Carrega todos os países do IBGE usando o endpoint sem filtro "-"
+            </summary>
+        </member>
+        <member name="M:MauiApp1.Pages.RequisicaoPage.BuscarPais_Clicked(System.Object,System.EventArgs)">
+            <summary>
+            Evento chamado ao clicar no botão "Buscar País"
+            </summary>
+        </member>
+    </members>
+</doc>

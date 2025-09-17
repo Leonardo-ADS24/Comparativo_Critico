@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|c:\\users\\rafae\\source\\repos\\mauiapp1\\mauiapp1\\pages\\requisicaopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\requisicaopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|c:\\users\\rafae\\source\\repos\\mauiapp1\\mauiapp1\\pages\\listapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\listapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|c:\\users\\rafae\\source\\repos\\mauiapp1\\mauiapp1\\pages\\listapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pages\\listapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|c:\\users\\rafae\\source\\repos\\mauiapp1\\mauiapp1\\models\\paisibge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B887554D-C125-485B-95A9-E6C6D36470D6}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\models\\paisibge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\ListaPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Pages\\ListaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\ListaPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\Pages\\ListaPage.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T04:01:53.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\ListaPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Pages\\ListaPage.xaml",
+              "ToolTip": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\ListaPage.xaml",
+              "RelativeToolTip": "MauiApp1\\Pages\\ListaPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-17T04:01:30.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaisIBGE.cs",
+              "DocumentMoniker": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Models\\PaisIBGE.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\PaisIBGE.cs",
+              "ToolTip": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Models\\PaisIBGE.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\PaisIBGE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:58:31.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequisicaoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\RequisicaoPage.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Pages\\RequisicaoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Rafae\\source\\repos\\MauiApp1\\MauiApp1\\Pages\\RequisicaoPage.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\Pages\\RequisicaoPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T03:57:32.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

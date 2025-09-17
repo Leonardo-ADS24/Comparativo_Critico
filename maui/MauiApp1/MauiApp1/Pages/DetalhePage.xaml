@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Pages.DetalhePage"
+             Title="Detalhe"
+             xmlns:models="clr-namespace:MauiApp1.Models"
+             x:DataType="models:Pais">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="{Binding Nome}" 
+               FontSize="24" 
+               FontAttributes="Bold" />
+        <Label Text="{Binding Descricao}" 
+               FontSize="16"
+               TextColor="Black"/>
+    </VerticalStackLayout>
+</ContentPage>
+
+    

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:MauiApp1.Models"
+    xmlns:pages="clr-namespace:MauiApp1.Pages"
+    x:Class="MauiApp1.Pages.ListaPage"
+    x:DataType="pages:ListaPage"
+    Title="Países">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="8">
+        <!--Titulo e botão para requisição Http-->
+        <Label Text="APP Paridade" FontSize="35" HorizontalOptions="Center" FontAttributes="Bold" TextColor="AliceBlue"/>
+        
+        <!--Barra pesquisa-->
+
+        <SearchBar x:Name="searchBar"
+                   Placeholder="Pesquisar país..."
+                   TextChanged="SearchBar_TextChanged" />
+
+        <CollectionView x:Name="collectionView"
+                        ItemsSource="{Binding Paises}" 
+                        SelectionMode="Single"
+                        SelectionChanged="CollectionView_SelectionChanged">
+
+            <CollectionView.ItemTemplate>
+                
+                <DataTemplate x:DataType="models:Pais">
+                    <Border Stroke="LightGray" StrokeThickness="1" StrokeShape="RoundRectangle 8" Padding="10" Margin="4">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+                            <Label Text="{Binding Descricao}" LineBreakMode="TailTruncation" MaxLines="2" FontSize="13" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
