@@ -41,11 +41,5 @@ public class DetalheActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
-
     }
 }

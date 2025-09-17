@@ -72,8 +72,5 @@ public class RequisicaoActivity extends AppCompatActivity {
 
             }
         });
-
-
-
     }
 }
