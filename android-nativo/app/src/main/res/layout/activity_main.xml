@@ -32,12 +32,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button_nativo"
+        android:id="@+id/button_pegar_localizacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
+        android:layout_marginStart="133dp"
         android:layout_marginTop="73dp"
-        android:layout_marginEnd="103dp"
+        android:layout_marginEnd="133dp"
         android:text="Recurso Nativo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
         android:text="Tema"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_nativo" />
+        app:layout_constraintTop_toBottomOf="@+id/button_pegar_localizacao" />
 
     <TextView
         android:id="@+id/textView"
@@ -63,9 +63,10 @@
         android:layout_marginTop="199dp"
         android:layout_marginEnd="163dp"
         android:text="App Paridade"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
