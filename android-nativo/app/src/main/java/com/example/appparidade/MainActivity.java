@@ -29,10 +29,11 @@ import com.google.android.gms.tasks.OnSuccessListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    private long tempoInicial;
+    public static long tempoInicial;
 
     private FusedLocationProviderClient fusedLocationClient;
     private ActivityResultLauncher<String[]> locationPermissionLauncher;
+
 
 
     @Override
@@ -148,6 +149,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showAlertDialog(String title,String message){
+
+        long tempoFinal = System.currentTimeMillis();
+        long tempoTotal = tempoFinal - tempoInicial;
+        Log.d("Tempo - Localização", "Tempo Stopwatch até abrir Geolocalização: " + tempoTotal + " ms");
+
         new AlertDialog.Builder(this)
                 .setTitle(title)
                 .setMessage(message)

@@ -13,13 +13,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 //import androidx.appcompat.widget.SearchView;
+import android.view.View;
 import android.widget.SearchView;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import android.os.Handler;
 import android.util.Log;
@@ -32,11 +30,15 @@ public class ListaPaisActivity extends AppCompatActivity {
     List<PaisLista> lista = new ArrayList<>();
     PaisAdapter adapter;
 
+    ImageButton btnVoltar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_lista_pais);
+
+        btnVoltar = findViewById(R.id.btn_voltar_requisicao);
 
         recyclerView = findViewById(R.id.recyclerView);
         searchView = findViewById(R.id.searchView);
@@ -45,6 +47,13 @@ public class ListaPaisActivity extends AppCompatActivity {
         adapter = new PaisAdapter(this, lista);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
+
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -68,7 +77,6 @@ public class ListaPaisActivity extends AppCompatActivity {
     }
 
 
-
     private void carregarDadosJSON() {
         try {
             InputStream is = getAssets().open("dados_paises.json");
@@ -88,6 +96,16 @@ public class ListaPaisActivity extends AppCompatActivity {
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus){
+            long tempoFinal = System.currentTimeMillis();
+            long tempoTotal = tempoFinal - MainActivity.tempoInicial;
+            Log.d("Tempo - Lista", "Tempo Stopwatch até abrir ListaPaisActivity: " + tempoTotal + " ms");
         }
     }
 }

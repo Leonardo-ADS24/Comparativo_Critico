@@ -7,6 +7,7 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,12 +15,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
+
 public class RequisicaoActivity extends AppCompatActivity {
 
     private EditText PaisIDEditText;
     private Button RequisicaoAPIButton;
 
     private TextView APIRespostaTextView;
+
+    ImageButton btnVoltar;
 
 
 
@@ -32,6 +37,14 @@ public class RequisicaoActivity extends AppCompatActivity {
         PaisIDEditText = findViewById(R.id.edit_text_pais_id);
         RequisicaoAPIButton = findViewById(R.id.button_requisicao_api);
         APIRespostaTextView = findViewById(R.id.textview_resposta_api);
+        btnVoltar = findViewById(R.id.btn_voltar_requisicao);
+
+        btnVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         RequisicaoAPIButton.setOnClickListener(new View.OnClickListener() {
             @Override

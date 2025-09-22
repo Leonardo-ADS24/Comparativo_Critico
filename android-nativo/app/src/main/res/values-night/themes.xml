@@ -3,5 +3,23 @@
     <style name="Base.Theme.AppParidade" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <!-- Cores para botões -->
+        <item name="colorPrimary">@color/primary_color_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_color_dark</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+        <item name="imageButtonStyle">@style/AppImageButtonStyle</item>
     </style>
+
+    <style name="AppTextAppearance.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/on_primary_color_light</item>
+    </style>
+    
+
+    <style name="AppImageButtonStyle" parent="Widget.Material3.Button.IconButton">
+        <item name="tint">@color/seta_voltar_dark</item>
+        <item name="backgroundTint">@color/seta_voltar_dark</item>
+    </style>
+
 </resources>

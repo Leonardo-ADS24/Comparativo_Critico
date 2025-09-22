@@ -7,6 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".DetalheActivity">
 
+    <ImageButton
+        android:id="@+id/btn_voltar_requisicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="371dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Botão para voltar à tela anterior"
+        android:padding="8dp"
+        android:src="@drawable/arrow_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -35,18 +50,6 @@
         app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Button
-        android:id="@+id/button_telaVoltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="133dp"
-        android:text="Voltar Lista Paises"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_descricao_pais" />
 
     <TextView
         android:id="@+id/text_view_descricao_pais"

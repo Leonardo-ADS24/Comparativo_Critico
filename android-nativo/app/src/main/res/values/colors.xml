@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="primary_color_light">#6750A4</color> <!-- Roxo escuro para botões -->
+    <color name="on_primary_color_light">#FFFFFF</color> <!-- Branco para texto sobre botões -->
+    <color name="text_color_light">#000000</color> <!-- Preto para texto geral -->
+    <color name="seta_voltar_light">#000</color>
+
+
+    <!-- Cores para o tema escuro -->
+    <color name="primary_color_dark">#6750A4</color> <!-- Roxo claro para botões -->
+    <color name="on_primary_color_dark">#FFFFFF</color> <!-- Roxo escuro para texto sobre botões -->
+    <color name="text_color_dark">#FFFFFF</color> <!-- Cinza claro para texto geral -->
+    <color name="seta_voltar_dark">#FFF</color>
+
+
 </resources>
