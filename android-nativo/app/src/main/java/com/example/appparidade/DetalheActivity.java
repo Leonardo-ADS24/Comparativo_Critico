@@ -47,8 +47,8 @@ public class DetalheActivity extends AppCompatActivity {
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
         if(hasFocus){
-            long tempoFinal = System.currentTimeMillis();
-            long tempoTotal = tempoFinal - MainActivity.tempoInicial;
+            long tempoFinal = System.nanoTime();
+            long tempoTotal = (tempoFinal - MainActivity.tempoInicial) / 1_000_000;
             Log.d("Tempo - Detalhe", "Tempo Stopwatch até abrir DetalheActivity: " + tempoTotal + " ms");
         }
     }
