@@ -30,6 +30,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 public class MainActivity extends AppCompatActivity {
 
     public static long tempoInicial;
+    private boolean ColdStartLogado = false;
 
     private FusedLocationProviderClient fusedLocationClient;
     private ActivityResultLauncher<String[]> locationPermissionLauncher;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        tempoInicial = System.currentTimeMillis();
+        tempoInicial = System.nanoTime();
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,RequisicaoActivity.class);
+                intent.putExtra("tempoInicialApp", tempoInicial);
                 startActivity(intent);
             }
         });
@@ -77,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ListaPaisActivity.class);
+                intent.putExtra("tempoInicialApp", tempoInicial);
                 startActivity(intent);
             }
         });
@@ -101,10 +104,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
-        if(hasFocus){
-            long tempoFinal = System.currentTimeMillis();
-            long coldStart = tempoFinal - tempoInicial;
+        if(hasFocus && !ColdStartLogado){
+            long tempoFinal = System.nanoTime();
+            long coldStart = (tempoFinal - tempoInicial) / 1_000_000;
             Log.d("Tempo","Cold Start: "+ coldStart +" ms");
+            ColdStartLogado = true;
         }
 
     }
@@ -149,9 +153,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showAlertDialog(String title,String message){
-
-        long tempoFinal = System.currentTimeMillis();
-        long tempoTotal = tempoFinal - tempoInicial;
+        long tempoFinal = System.nanoTime();
+        long tempoTotal = (tempoFinal - tempoInicial) / 1_000_000 ;
         Log.d("Tempo - Localização", "Tempo Stopwatch até abrir Geolocalização: " + tempoTotal + " ms");
 
         new AlertDialog.Builder(this)

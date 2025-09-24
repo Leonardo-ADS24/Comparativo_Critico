@@ -26,6 +26,9 @@ public class RequisicaoActivity extends AppCompatActivity {
 
     ImageButton btnVoltar;
 
+    private long tempoInicial;
+
+
 
 
     @Override
@@ -33,6 +36,8 @@ public class RequisicaoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_requisicao);
+
+        tempoInicial = getIntent().getLongExtra("tempoInicialApp", -1);
 
         PaisIDEditText = findViewById(R.id.edit_text_pais_id);
         RequisicaoAPIButton = findViewById(R.id.button_requisicao_api);
@@ -85,5 +90,15 @@ public class RequisicaoActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus && tempoInicial > 0){
+            long tempoFinal = System.nanoTime();
+            long tempoTotal = (tempoFinal - tempoInicial) /1_000_000;
+            Log.d("Tempo - Lista", "Tempo Stopwatch até abrir RequisicaoActivity: " + tempoTotal + " ms");
+        }
     }
 }

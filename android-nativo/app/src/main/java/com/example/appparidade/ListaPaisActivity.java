@@ -32,11 +32,16 @@ public class ListaPaisActivity extends AppCompatActivity {
 
     ImageButton btnVoltar;
 
+    private long tempoInicial;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_lista_pais);
+
+        tempoInicial = getIntent().getLongExtra("tempoInicialApp", -1);
 
         btnVoltar = findViewById(R.id.btn_voltar_requisicao);
 
@@ -71,7 +76,7 @@ public class ListaPaisActivity extends AppCompatActivity {
 
         new Handler().postDelayed(() -> {
             Runtime runtime = Runtime.getRuntime();
-            long usedMemory = (runtime.totalMemory() - runtime.freeMemory()) / (1024 * 1024);  // Converte para MB
+            long usedMemory = (runtime.totalMemory() - runtime.freeMemory()) / (1024 * 1024);
             Log.d("MemoryUsage", "Memória em repouso após 30s: " + usedMemory + " MB");
         }, 30000);
     }
@@ -102,9 +107,9 @@ public class ListaPaisActivity extends AppCompatActivity {
     @Override
     public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
-        if(hasFocus){
-            long tempoFinal = System.currentTimeMillis();
-            long tempoTotal = tempoFinal - MainActivity.tempoInicial;
+        if(hasFocus && tempoInicial > 0){
+            long tempoFinal = System.nanoTime();
+            long tempoTotal = (tempoFinal - tempoInicial) /1_000_000;
             Log.d("Tempo - Lista", "Tempo Stopwatch até abrir ListaPaisActivity: " + tempoTotal + " ms");
         }
     }

@@ -1,12 +1,9 @@
 package com.example.appparidade;
 
 import android.content.Context;
-
 import java.util.ArrayList;
-
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import static org.junit.Assert.assertEquals;
-
 import androidx.test.platform.app.InstrumentationRegistry;
 
 
