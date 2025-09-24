@@ -6,6 +6,10 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\com.compa
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\com.companyname.mauiapp1-Signed.aab
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\com.companyname.mauiapp1-Signed.apk
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\com.companyname.mauiapp1-Signed.apk.idsig
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\build.props
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\adb.props
@@ -122,6 +126,7 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.AssemblyInfo.cs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.csproj.CoreCompileInputs.cache
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\XamlC.stamp
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.csproj.Up2Date
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.pdb
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\MauiApp1.genruntimeconfig.cache
@@ -168,6 +173,7 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Primitives.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Compatibility.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.pdb
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.pdb
@@ -179,6 +185,9 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.pdb
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.Core.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Primitives.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Registry.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\Mono.Android.dll
@@ -517,7 +526,7 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -527,7 +536,7 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\b
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\static.flag
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\buildid.txt
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\environment.x86_64.ll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1026,13 +1035,13 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\s
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\src\com\companyname\mauiapp1\R.java
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\environment.x86_64.o
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp

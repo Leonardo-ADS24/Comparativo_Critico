@@ -15,26 +15,30 @@
 
             <Grid ColumnDefinitions="*, *"
               RowDefinitions="Auto, Auto"
-              ColumnSpacing="15"
-              RowSpacing="15"
+              ColumnSpacing="20"
+              RowSpacing="44"
               HorizontalOptions="Center">
                 <!--botões para as outras paginas-->
                 <Button Text="Página Lista"
+                    
+                    BackgroundColor="#6750A4"
                     Grid.Row="0"
                     Grid.Column="0"
                     WidthRequest="150"
                     Clicked="OnPaginaListaClicked" />
 
                 <Button Text="Página Requisição"
+                    BackgroundColor="#6750A4"
                     Grid.Row="0"
                     Grid.Column="1"
-                    WidthRequest="150"
+                    WidthRequest="160"
                     Clicked="OnPaginaRequisicaoClicked" />
 
                 <Button Text="Recurso Nativo"
+                    BackgroundColor="#6750A4"
                     Grid.Row="1"
                     Grid.ColumnSpan="2"
-                    WidthRequest="315"
+                    WidthRequest="150"
                     Clicked="OnRecursoNativoClicked" />
                 
                 

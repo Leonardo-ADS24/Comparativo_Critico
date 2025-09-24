@@ -10,14 +10,24 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
     }
+    // teste cold start 
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        App.ColdStartWatch.Stop();
+        Console.WriteLine($"⏱️ Cold Start: {App.ColdStartWatch.ElapsedMilliseconds} ms");
+    }
+
     //botões Lista Json e Requisição HTTP
     private async void OnPaginaListaClicked(object sender, EventArgs e)
     {
+        PageLoadLogger.Start(nameof(ListaPage));
         await Navigation.PushAsync(new ListaPage());
     }
 
     private async void OnPaginaRequisicaoClicked(object sender, EventArgs e)
-    {
+    {   PageLoadLogger.Start(nameof(RequisicaoPage));
         await Navigation.PushAsync(new RequisicaoPage());
     }
 

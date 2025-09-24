@@ -260,7 +260,6 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-ios\iossimulator-
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -313,3 +312,4 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\MauiApp1.pdb
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\MauiApp1.genruntimeconfig.cache
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\ref\MauiApp1.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
