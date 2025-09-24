@@ -1,0 +1,3 @@
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Release\net8.0-android\publish\com.companyname.mauiapp1-Signed.apk
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Release\net8.0-android\publish\com.companyname.mauiapp1.apk
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll

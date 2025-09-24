@@ -2,22 +2,26 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Pages.RequisicaoPage"
-             Title="Requisição HTTP - Países">
+             >
 
     <ScrollView>
         <StackLayout Padding="20" Spacing="15">
-
-        <!-- Instrução para o usuário -->
-        <Label Text="Digite o código do país (ex: BR)" FontSize="16" />
+            <Label Text="Requisições HTTP - Países" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="24" Margin="0,0,30,0"/>
+            <!-- Instrução para o usuário -->
+        <Label Text="Digite o ID do país" FontSize="16"
+         HorizontalOptions="Center"/>
 
         <!-- Entrada do código ISO -->
-        <Entry x:Name="CodigoEntry" Placeholder="Ex: BR" />
+        <Entry x:Name="CodigoEntry" Placeholder="Ex: BR" 
+         WidthRequest="180" HorizontalTextAlignment="Center"
+          PlaceholderColor="Black"/>
 
         <!-- Botão que dispara a busca -->
-        <Button Text="Buscar País" Clicked="BuscarPais_Clicked" />
+        <Button Text="Fazer requisição na API" Clicked="BuscarPais_Clicked"
+         WidthRequest="200"/>
 
         <!-- Resultado da busca: nome do país -->
-        <Label x:Name="ResultadoNomeLabel" FontSize="18" FontAttributes="Bold" TextColor="Blue" />
+        <Label x:Name="ResultadoNomeLabel" FontSize="18" FontAttributes="Bold" TextColor="Black" />
 
         <!-- Resultado da busca: histórico do país -->
         

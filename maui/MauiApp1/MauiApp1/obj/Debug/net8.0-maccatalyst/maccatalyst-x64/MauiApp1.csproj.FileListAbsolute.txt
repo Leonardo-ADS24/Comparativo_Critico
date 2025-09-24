@@ -255,6 +255,10 @@ C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\macca
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\Rafae\source\repos\MauiApp1\MauiApp1\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs

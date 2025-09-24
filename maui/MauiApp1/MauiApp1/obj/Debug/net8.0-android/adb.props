@@ -1,2 +1,2 @@
-AdbTarget=
+AdbTarget=-s RX8MC074M0H
 AdbOptions=

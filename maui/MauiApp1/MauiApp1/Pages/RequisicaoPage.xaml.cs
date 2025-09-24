@@ -13,8 +13,11 @@ public partial class RequisicaoPage : ContentPage
 
     public RequisicaoPage()
     {
+        PageLoadLogger.Start(nameof(RequisicaoPage));
         InitializeComponent(); 
         CarregarPaises();      // Carrega todos os países ao abrir a página
+
+       
     }
 
     
@@ -66,6 +69,11 @@ public partial class RequisicaoPage : ContentPage
             ResultadoNomeLabel.Text = "";
             ResultadoHistoricoLabel.Text = $"Nenhum país encontrado para o código '{codigo}'.";
         }
+    }
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        PageLoadLogger.Stop(nameof(RequisicaoPage));
     }
 }
 

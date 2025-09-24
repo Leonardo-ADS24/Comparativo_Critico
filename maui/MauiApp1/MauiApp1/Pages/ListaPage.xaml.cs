@@ -15,9 +15,12 @@ public partial class ListaPage : ContentPage
 
     public ListaPage()
     {
+        PageLoadLogger.Start(nameof(ListaPage));
         InitializeComponent();
         BindingContext = this;
         CarregarDados();
+
+       
     }
    
     private async void CarregarDados()
@@ -70,8 +73,16 @@ public partial class ListaPage : ContentPage
     {
         if (e.CurrentSelection.FirstOrDefault() is Pais paisSelecionado)
         {
+            PageLoadLogger.Start(nameof(DetalhePage));
             await Navigation.PushAsync(new DetalhePage(paisSelecionado));
             ((CollectionView)sender).SelectedItem = null; // limpa seleção
         }
     }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        PageLoadLogger.Stop(nameof(ListaPage));
+    }
+
 }
